@@ -1,10 +1,10 @@
 option.GLIMMER_SHADERS=Visual Vibrance
-value.GLIMMER_SHADERS.1=§dBy jbritain
-value.GLIMMER_SHADERS.2=§dBy jbritain
+value.GLIMMER_SHADERS.1=§dBy jbritain - mb28 fork
+value.GLIMMER_SHADERS.2=§dBy jbritain - mb28 fork
 
-option.WEBSITE=https://
-value.WEBSITE.1=§djbritain.net
-value.WEBSITE.2=§djbritain.net
+option.WEBSITE=Version
+value.WEBSITE.1=v0.3.6-mb28-fork
+value.WEBSITE.2=https://github.com/mb0028/visual-vibrance
 
 screen.LIGHTING=Lighting & Shadows
 screen.SHADOWS=Shadows
@@ -17,10 +17,8 @@ screen.PARALLAX=Parallax (POM)
 screen.DH=Distant Horizons
 screen.DEBUG=Development
 
-profile.potato=§cPotato
-profile.toaster=§6Toaster
-profile.igpu=§aIntegrated Graphics
-profile.dgpu=§bDedicated Graphics
+profile.mb28=mb28
+profile.default=Default
 
 option.DEBUG_ENABLE=Debug Mode
 option.DEBUG_ENABLE.comment=Renders whatever the show() function is called on to the screen.
@@ -175,6 +173,8 @@ suffix.entityShadowDistanceMul=x
 
 option.shadowMapResolution=Shadow Quality
 option.shadowMapResolution.comment=The resolution of the shadow map (how pixelated it is). §cHigh performance impact!
+value.shadowMapResolution.64=64x
+value.shadowMapResolution.96=96x
 value.shadowMapResolution.128=128x
 value.shadowMapResolution.256=256x
 value.shadowMapResolution.512=512x
@@ -344,10 +344,10 @@ option.PARALLAX_SHADOW.comment=Allows parallax to cast a shadow. §6Moderate per
 option.PARALLAX_SHADOW_SAMPLES=Self-Shadow Samples
 option.PARALLAX_SHADOW_SAMPLES.comment=How many samples should be taken when computing parallax shadows. §6Moderate performance impact. 
 
-option.tonemap=Tonemap Operator
+option.tonemap=Tonemapping
 option.tonemap.comment=How the final colour is graded. §2Imperceptible performance impact.
 value.tonemap.agxTonemap=AGX (Punchy)
-value.tonemap.jodieReinhardTonemap=Jodie-Reinhard
+value.tonemap.jodieReinhardTonemap=Reinhard Jodie
 value.tonemap.uncharted2FilmicTonemap=Hable
 value.tonemap.hejlBurgessTonemap=Hejl-Burgess
-value.tonemap.ACESTonemap=ACES Approx.
+value.tonemap.ACESTonemap=ACES
